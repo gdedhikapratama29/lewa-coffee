@@ -991,7 +991,7 @@ img {
 
 .footer-content {
     display: grid;
-    row-gap: 3rem;
+    row-gap: 1rem;
 }
 
 .footer .content-description,
