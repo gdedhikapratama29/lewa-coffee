@@ -583,7 +583,7 @@ img {
 .menuItem-price {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     gap: 0.2rem;
     padding-left: 1rem;
     border-left: 2px solid rgba(0, 0, 0, 0.1);
@@ -606,14 +606,14 @@ img {
     padding: 2.5rem 2rem;
     color: var(--white-color);
     background-color: var(--primary-color);
-    margin-top: 7rem;
+    margin-top: 3rem;
 }
 
 .time-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 2rem;
+    padding: 2rem 2rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
     background-color: var(--white-color);
 }
@@ -1171,7 +1171,7 @@ img {
 
     .menu .menu-content {
         grid-template-columns: 1fr;
-        row-gap: 3rem;
+        row-gap: 1.5rem;
     }
 
     .footer-containeer {
