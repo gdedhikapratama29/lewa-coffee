@@ -60,7 +60,7 @@ const sections = document.querySelectorAll('section[id]');
 
 sections.forEach(section => {
   const sectionHeight = section.offsetHeight,
-        sectionTop = section.offsetTop - 60;
+        sectionTop = section.offsetTop - 40;
 
         let navId = document.querySelector(`.menu-content a[href*= ${section.id}]`);
 
@@ -86,7 +86,8 @@ const sr = ScrollReveal({
   delay: 400
 })
 
-sr.reveal(`.section-title, .section-subtitle, .section-description, .newsletter, .logo-content, .newsletter-inputBox, .newsletter-button, .newsletter-inputBox, .newsletter-mediaIcon, .footer-content, .footer-links`, {interval: 100,})
+sr.reveal(`.section-title, .section-subtitle, .section-description, .newsletter, .newsletter-inputBox, .newsletter-button, .newsletter-inputBox, .newsletter-mediaIcon, .footer-content, .footer-links`, {interval: 100,})
 
-sr.reveal(`.about-imageContent, .menu-items`, { origin: 'left' })
-sr.reveal(`.about-details, .time-table`, { origin: 'right' })
+sr.reveal(`.about-imageContent, .menu-items, .time-table`, { origin: 'left',
+  rotate: { y: 90 } })
+sr.reveal(`.about-details`, { interval: 100 })
