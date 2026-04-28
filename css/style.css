@@ -555,11 +555,10 @@ img {
 
 /* Gambar menu */
 .menu-img {
-    width: 65px; /* Sedikit lebih kecil untuk 16 item */
-    height: 65px;
+    width: 50px; /* Sedikit lebih kecil untuk 16 item */
+    height: 50px;
     border-radius: 12px;
     object-fit: cover;
-    flex-shrink: 0;
 }
 
 /* Detail text */
@@ -1167,7 +1166,8 @@ img {
 
     .about .content-subtitle,
     .about .content-title,
-    .about .content-description {
+    .about .content-description,
+    .about .about-buttons { 
         text-align: center;
     }
 
@@ -1211,6 +1211,4 @@ img {
     .footer-linkContent {
         justify-items: center;
     }
-
-
 }
