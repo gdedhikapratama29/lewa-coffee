@@ -88,6 +88,6 @@ const sr = ScrollReveal({
 
 sr.reveal(`.section-title, .section-subtitle, .section-description, .newsletter, .newsletter-inputBox, .newsletter-button, .newsletter-inputBox, .newsletter-mediaIcon, .footer-content, .footer-links`, {interval: 100,})
 
-sr.reveal(`.about-imageContent, .menu-items, .time-table`, { origin: 'left',
+sr.reveal(`.about-imageContent, .time-table`, { origin: 'left',
   rotate: { y: 90 } })
 sr.reveal(`.about-details`, { interval: 100 })
