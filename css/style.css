@@ -555,10 +555,8 @@ img {
 
 /* Gambar menu */
 .menu-img {
-    width: 50px; /* Sedikit lebih kecil untuk 16 item */
-    height: 50px;
-    border-radius: 12px;
-    object-fit: cover;
+    width: 60px; /* Sedikit lebih kecil untuk 16 item */
+    height: 60px;
 }
 
 /* Detail text */
@@ -622,7 +620,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.2rem 2rem;
+    padding: 2.2rem 2rem;
     background-color: var(--white-color);
 }
 
