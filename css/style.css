@@ -488,9 +488,6 @@ img {
     font-size: 1.8rem;
 }
 
-.about-list:nth-child(1) {
-    color: var(--primary-color);
-}
 
 .about-list.dot {
     font-size: 2.5rem;
