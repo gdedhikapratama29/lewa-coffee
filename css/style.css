@@ -494,8 +494,6 @@ img {
     font-size: 2.5rem;
 }
 
-
-
 .about-link .link-text,
 .about-arrowIcon {
     color: var(--text-color);
@@ -528,7 +526,6 @@ img {
     align-items: stretch;
 }
 
-/* Hilangkan pengaruh .menu-items sebagai block */
 .menu-items {
     display: contents;
 }
@@ -538,13 +535,13 @@ img {
     display: flex;
     align-items: center;
     gap: 1.2rem;
-    padding: 1.5rem 1.5rem; /* Kurangi padding sedikit biar lebih kompak */
+    padding: 1.5rem 1.5rem; 
     background-color: var(--white-color);
     border-radius: 16px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     height: 100%;
-    min-height: 130px; /* Minimal tinggi biar konsisten */
+    min-height: 130px; 
 }
 
 /* Hover effect */
@@ -555,14 +552,14 @@ img {
 
 /* Gambar menu */
 .menu-img {
-    width: 60px; /* Sedikit lebih kecil untuk 16 item */
-    height: 60px;
+    width: 80px; 
+    height: 80px;
 }
 
 /* Detail text */
 .menuItem-details {
     flex: 1;
-    min-width: 0; /* Mencegah overflow text */
+    min-width: 0; 
 }
 
 .menuItem-topic {
@@ -574,10 +571,7 @@ img {
 .menuItem-des {
     font-size: 1rem;
     color: #777;
-    line-height: 1.3;
-    display: -webkit-box;
-    -webkit-line-clamp: 2; /* Maksimal 2 baris */
-    -webkit-box-orient: vertical;
+    line-height: 1;
     overflow: hidden;
 }
 
@@ -623,7 +617,6 @@ img {
     padding: 2.2rem 2rem;
     background-color: var(--white-color);
 }
-
 
 
 /* contact */
@@ -934,13 +927,6 @@ img {
   background: #e67e22;
 }
 
-
-/* Review */
-
-
-/* swiper btn */
-
-
 /* Newsletter */
 
 .newsletter .logo-icon,
@@ -1111,7 +1097,7 @@ img {
 
 @media screen and (max-width: 1000px) {
 
-     .swiper-button-prev {
+    .swiper-button-prev {
         left: 3rem;
     }
 
