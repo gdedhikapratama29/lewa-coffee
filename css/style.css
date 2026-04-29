@@ -552,8 +552,8 @@ img {
 
 /* Gambar menu */
 .menu-img {
-    width: 80px; 
-    height: 80px;
+    width: 75px; 
+    height: 75px;
 }
 
 /* Detail text */
@@ -571,7 +571,7 @@ img {
 .menuItem-des {
     font-size: 1rem;
     color: #777;
-    line-height: 1;
+    line-height: 1.2;
     overflow: hidden;
 }
 
@@ -1119,7 +1119,7 @@ img {
     }
 
     .menu .menu-content {
-        grid-template-columns: 1.5fr 1fr;
+        grid-template-columns: 1fr 1fr;
         column-gap: 3rem;
     }
 }
